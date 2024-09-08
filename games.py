@@ -4,6 +4,7 @@ def main():
     print('2. Batu')
     print('3. Gunting')
     print('4. Keluar')
+    print('5. Nyawa')
     pilih = int(input("Masukan Pilihan Anda: "))
     import random
     comp = random.randint(1,3)
@@ -49,6 +50,8 @@ def main():
     elif pilih == 4:
         print("Terima Kasih")
         exit()
+    elif pilih == 5:
+        print("Nyawa dibayar nyawa")
     else:
         print("Pilihan Tidak Tersedia")
 
